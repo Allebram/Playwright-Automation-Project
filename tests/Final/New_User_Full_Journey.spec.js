@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { v4 as uuid } from "../../node_modules/uuid"
-import { ArtPage } from "./../../page-objects/Final/ArtPage.js"
+import { v4 as uuid } from "../../node_modules/uuid/dist/index.js"
+import { ArtPage } from "../../page-objects/Final/ArtPage.js"
 import { NavObjects } from "../../page-objects/Final/NavObjects.js"
 import { CheckOutPage } from "../../page-objects/Final/CheckOutPage.js"
 import { LoginPage } from "../../page-objects/Final/LoginPage.js"
