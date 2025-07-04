@@ -58,7 +58,7 @@ export class PaymentPage {
     CompleteThePayment = async () => {
         await this.PayButton.waitFor()
         await this.PayButton.click()
-        await this.page.waitForURL('/thank-you')
+        await this.page.waitForURL(/\/thank-you/)
 
 
     }

@@ -19,6 +19,6 @@ export class NavObjects {
         }
         await this.CheckOutButton.waitFor()
         await this.CheckOutButton.click()
-        await this.page.waitForURL('/basket')
+        await this.page.waitForURL(/\/basket/)
     }
 }

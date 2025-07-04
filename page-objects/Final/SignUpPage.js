@@ -12,6 +12,6 @@ export class SignUpPage{
         await this.EmailField.fill(email)
         await this.PasswordField.fill(password)
         await this.RegisterButton.click()
-        await this.page.waitForURL('/delivery-details')        
+        await this.page.waitForURL(/\/delivery-details/)        
     }
 }

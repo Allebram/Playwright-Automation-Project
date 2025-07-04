@@ -63,6 +63,6 @@ export class DeliveryDetails {
     GotoPayment = async () => {
         await this.ContinueToPayment.waitFor()
         await this.ContinueToPayment.click()
-        await this.page.waitForURL('/payment')
+        await this.page.waitForURL(/\/payment/)
     }
 }
